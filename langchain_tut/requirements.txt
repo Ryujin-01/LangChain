@@ -1,25 +1,20 @@
-# LangChain Core
 langchain
 langchain-core
-
-# OpenAI Integration
-langchain-openai
-openai
-
-# Anthropic Integration
-langchain-anthropic
-
-# Google Gemini (PaLM) Integration
+langchain-community
+langchain-text-splitters
 langchain-google-genai
-google-generativeai
-
-# Hugging Face Integration
 langchain-huggingface
-transformers
 huggingface-hub
-
-# Environment Variable Management
+transformers
+sentence-transformers
+sentencepiece
+accelerate
+bitsandbytes
+chromadb
 python-dotenv
+pypdf
+youtube-transcript-api
+wikipedia
 
 # Machine Learning Utilities
 numpy
