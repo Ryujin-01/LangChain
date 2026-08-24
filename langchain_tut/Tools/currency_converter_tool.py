@@ -59,7 +59,7 @@ baseCurr = input("Base Currency: ")  # e.g. USD
 reqCurr = input("Required Currency: ")  # e.g. INR
 amount = input("Amount: ")  # e.g. 100
 
-query = f"Give me the conversion rate of {baseCurr} to {reqCurr}. Also convert {amount} {baseCurr} to {reqCurr}"
+query = f"Give me the conversion rate of {baseCurr} currency to {reqCurr} currency. Also convert {amount} {baseCurr} currency to {reqCurr} currency"
 history = [HumanMessage(query)]
 
 # Setting up and binding the LLM
