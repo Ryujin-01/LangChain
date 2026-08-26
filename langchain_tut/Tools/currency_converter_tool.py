@@ -24,6 +24,7 @@ def get_conversion_rate(BaseCurrency: str, RequiredCurrency: str) -> float:
         response = requests.get(url=url)
 
         # This checks whether the HTTP request was successful. e.g. 200	Successful, 400	Bad request etc.
+        # If .raise_for_status() encounters an unsuccessful HTTP status code, it raises an exception and stops executing the remaining lines inside the try block.
         response.raise_for_status()
 
         # The API doesn't normally send Python dictionaries directly. It sends JSON.
